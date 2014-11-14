@@ -1,0 +1,123 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'sass' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'sass', null ]
+5 verbose cache add name=undefined spec="sass" args=["sass",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'sass',
+6 verbose parsed url   path: 'sass',
+6 verbose parsed url   href: 'sass' }
+7 silly lockFile 5d7463cd-sass sass
+8 verbose lock sass /Users/andresgalante/.npm/5d7463cd-sass.lock
+9 silly lockFile 5d7463cd-sass sass
+10 silly lockFile 5d7463cd-sass sass
+11 verbose addNamed [ 'sass', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile abea0ec1-sass sass@
+14 verbose lock sass@ /Users/andresgalante/.npm/abea0ec1-sass.lock
+15 silly addNameRange { name: 'sass', range: '*', hasData: false }
+16 verbose request where is /sass
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id c93dea99ebf49ad6
+19 verbose url raw /sass
+20 verbose url resolving [ 'https://registry.npmjs.org/', './sass' ]
+21 verbose url resolved https://registry.npmjs.org/sass
+22 verbose request where is https://registry.npmjs.org/sass
+23 info trying registry request attempt 1 at 17:32:05
+24 verbose etag "26NSGCVLR9YKQRYYRAIJLTYVX"
+25 http GET https://registry.npmjs.org/sass
+26 http 304 https://registry.npmjs.org/sass
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Thu, 13 Nov 2014 20:32:06 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Thu, 13 Nov 2014 20:32:06 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"26NSGCVLR9YKQRYYRAIJLTYVX"',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-iad2120-IAD',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1415910726.599845,VS0,VE82',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/sass from cache
+29 silly addNameRange number 2 { name: 'sass', range: '*', hasData: true }
+30 silly addNameRange versions [ 'sass', [ '0.4.0', '0.4.1', '0.4.2', '0.4.3', '0.5.0' ] ]
+31 verbose addNamed [ 'sass', '0.5.0' ]
+32 verbose addNamed [ '0.5.0', '0.5.0' ]
+33 silly lockFile 69745589-sass-0-5-0 sass@0.5.0
+34 verbose lock sass@0.5.0 /Users/andresgalante/.npm/69745589-sass-0-5-0.lock
+35 silly lockFile 69745589-sass-0-5-0 sass@0.5.0
+36 silly lockFile 69745589-sass-0-5-0 sass@0.5.0
+37 silly lockFile abea0ec1-sass sass@
+38 silly lockFile abea0ec1-sass sass@
+39 silly resolved [ { name: 'sass',
+39 silly resolved     description: 'Syntactically Awesome Stylesheets (compiles to css)',
+39 silly resolved     version: '0.5.0',
+39 silly resolved     keywords: [ 'sass', 'template', 'css', 'view' ],
+39 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+39 silly resolved     contributors: [ [Object] ],
+39 silly resolved     main: './lib/sass',
+39 silly resolved     _id: 'sass@0.5.0',
+39 silly resolved     engines: { node: '*' },
+39 silly resolved     _nodeSupported: true,
+39 silly resolved     _npmVersion: '0.2.7-2',
+39 silly resolved     _nodeVersion: 'v0.3.1-pre',
+39 silly resolved     dist:
+39 silly resolved      { tarball: 'http://registry.npmjs.org/sass/-/sass-0.5.0.tgz',
+39 silly resolved        shasum: '9dee1183a0f400361f2c5d3453bf2e54705e03f9' },
+39 silly resolved     directories: {},
+39 silly resolved     _shasum: '9dee1183a0f400361f2c5d3453bf2e54705e03f9',
+39 silly resolved     _from: 'sass@',
+39 silly resolved     _resolved: 'https://registry.npmjs.org/sass/-/sass-0.5.0.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install sass@0.5.0 into /usr/local/lib
+41 info installOne sass@0.5.0
+42 verbose lib/node_modules/sass unbuild
+43 verbose tar unpack /Users/andresgalante/.npm/sass/0.5.0/package.tgz
+44 silly lockFile 586e5f95--usr-local-lib-node-modules-sass tar:///usr/local/lib/node_modules/sass
+45 verbose lock tar:///usr/local/lib/node_modules/sass /Users/andresgalante/.npm/586e5f95--usr-local-lib-node-modules-sass.lock
+46 silly lockFile 9fe5e572-lante-npm-sass-0-5-0-package-tgz tar:///Users/andresgalante/.npm/sass/0.5.0/package.tgz
+47 verbose lock tar:///Users/andresgalante/.npm/sass/0.5.0/package.tgz /Users/andresgalante/.npm/9fe5e572-lante-npm-sass-0-5-0-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 error Error: EACCES, mkdir '/usr/local/lib/node_modules/sass'
+49 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/sass']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/usr/local/lib/node_modules/sass',
+49 error   fstream_type: 'Directory',
+49 error   fstream_path: '/usr/local/lib/node_modules/sass',
+49 error   fstream_class: 'DirWriter',
+49 error   fstream_stack:
+49 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+49 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+49 error      'Object.oncomplete (fs.js:107:15)' ] }
+50 error Please try running this command again as root/Administrator.
+51 error System Darwin 14.0.0
+52 error command "node" "/usr/local/bin/npm" "install" "-g" "sass"
+53 error cwd /Users/andresgalante/Documents/redhat/shot and share/shootnshareionic
+54 error node -v v0.10.33
+55 error npm -v 1.4.28
+56 error path /usr/local/lib/node_modules/sass
+57 error fstream_path /usr/local/lib/node_modules/sass
+58 error fstream_type Directory
+59 error fstream_class DirWriter
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/sass'
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+63 error fstream_stack Object.oncomplete (fs.js:107:15)
+64 verbose exit [ 3, true ]

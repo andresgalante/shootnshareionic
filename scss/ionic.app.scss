@@ -1,0 +1,112 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+$fb:               #3b5998;
+$keycloack:        #014e7c;
+$gplus:            #dd4b39;
+$gray:             #ecf0f1;
+$grayDark:         #dcdee0;
+$grayDarker:       #c3c7c9;
+
+
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+
+.bottom-action-bar{
+  border-top: 1px solid $grayDark;
+  background: $gray;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 88px;
+  z-index: 99999;
+  
+ //SHOOT -------------------------------------------------------- 
+      
+  .take-picture{
+    padding-top: 16px;
+    display: block;
+    img{
+      width: 56px;
+      height: auto;
+    }//img
+  }//take pic
+  
+  .select-camera-roll{
+    position: absolute;
+    top: 21px;
+    left: 16px;
+    display: block;
+    border: 1px solid $grayDarker;
+    img{
+      width: 45px;
+      height: 45px;
+      display: block;
+    }
+  } //select-camera-roll 
+  
+  
+ //SHARE -------------------------------------------------------- 
+  ul{
+    background: blue;
+    @extend %clearfix;
+  }
+  li{
+    float: left;
+    width: 33%;
+    height: 88px;
+    background:  $gplus url(../../../www/img/googleplus-icon@2x.png) no-repeat center center;
+    background-size: 24px 21px;
+    text-indent: -9999999px;
+    &:last-child{width: 34%;}    
+    &.fb{           background: $fb url(../../../www/img/facebook-icon@2x.png) no-repeat center center;background-size: 12px 22px;}
+    &.keycloack{    background: $keycloack url(../../../www/img/keycloack-icon@2x.png) no-repeat center center;background-size: 16px 23px;}
+    
+    a{
+      display: block;
+    }
+  }   
+  
+}//btn action
+
+
+// Camera 
+
+.camera{
+  background: black;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 88px;
+}
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "../www/lib/ionic/scss/ionic.scss";
+
